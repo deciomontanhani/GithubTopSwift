@@ -17,6 +17,12 @@
 		206E7D0F228127F500604FF0 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E7D0E228127F500604FF0 /* UITableView.swift */; };
 		206E7D112281288F00604FF0 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E7D102281288F00604FF0 /* NSObject.swift */; };
 		206E7D1422812CEE00604FF0 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E7D1322812CEE00604FF0 /* UINavigationBar.swift */; };
+		3F25B3D71AACA42745E91933 /* Pods_GithubTopSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A50D08D2CE6047A1AA4C7F /* Pods_GithubTopSwiftTests.framework */; };
+		B2F483361A8BE93D77FBCC3A /* Pods_GithubTopSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3CE01D728026C101A2FE3C /* Pods_GithubTopSwiftUITests.framework */; };
+		B865D6962286457B00CA3120 /* TopSwiftListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865D6952286457B00CA3120 /* TopSwiftListViewModel.swift */; };
+		B8725F4322862BE300062232 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8725F4122862BE300062232 /* RepoTableViewCell.swift */; };
+		B8725F4422862BE300062232 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8725F4222862BE300062232 /* RepoTableViewCell.xib */; };
+		DCC516A07323DA49D406DC1C /* Pods_GithubTopSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497FE817230FBDE45B8F1CFD /* Pods_GithubTopSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6FB508C0C8E8CCDD7F4057 /* Pods-GithubTopSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-GithubTopSwiftTests/Pods-GithubTopSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		206E7CD22281203D00604FF0 /* GithubTopSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubTopSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206E7CD52281203D00604FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206E7CDC2281203F00604FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,17 @@
 		206E7D0E228127F500604FF0 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		206E7D102281288F00604FF0 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		206E7D1322812CEE00604FF0 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		39A50D08D2CE6047A1AA4C7F /* Pods_GithubTopSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubTopSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497FE817230FBDE45B8F1CFD /* Pods_GithubTopSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubTopSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7079FA1854BA871D67E6E /* Pods-GithubTopSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubTopSwiftTests/Pods-GithubTopSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B86BD73A94119DA5E91FB90 /* Pods-GithubTopSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwift.release.xcconfig"; path = "Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift.release.xcconfig"; sourceTree = "<group>"; };
+		6B3CE01D728026C101A2FE3C /* Pods_GithubTopSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubTopSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D4C879B01AD7DB3D69D63 /* Pods-GithubTopSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubTopSwiftUITests/Pods-GithubTopSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8D4AB24E807A768820C276 /* Pods-GithubTopSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwift.debug.xcconfig"; path = "Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B865D6952286457B00CA3120 /* TopSwiftListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSwiftListViewModel.swift; sourceTree = "<group>"; };
+		B8725F4122862BE300062232 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		B8725F4222862BE300062232 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		F214FE45142AB4E2ECEDB6C0 /* Pods-GithubTopSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubTopSwiftUITests/Pods-GithubTopSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC516A07323DA49D406DC1C /* Pods_GithubTopSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F25B3D71AACA42745E91933 /* Pods_GithubTopSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F483361A8BE93D77FBCC3A /* Pods_GithubTopSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +108,8 @@
 				206E7CE92281203F00604FF0 /* GithubTopSwiftTests */,
 				206E7CF42281203F00604FF0 /* GithubTopSwiftUITests */,
 				206E7CD32281203D00604FF0 /* Products */,
+				3CE303427BE965A7482A59AA /* Pods */,
+				AF6B1F9F5CD63880C49A89E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,10 @@
 		206E7CD42281203D00604FF0 /* GithubTopSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B8725F482286302A00062232 /* Entities */,
+				B8725F462286301100062232 /* Utils */,
+				B8725F4522862FFD00062232 /* Services */,
+				206E7D0A2281270200604FF0 /* Business */,
 				206E7D0D228127CC00604FF0 /* Extensions */,
 				206E7D032281216300604FF0 /* Presentation */,
 				206E7CD52281203D00604FF0 /* AppDelegate.swift */,
@@ -143,42 +170,20 @@
 		206E7D08228121EC00604FF0 /* TopSwiftList */ = {
 			isa = PBXGroup;
 			children = (
-				206E7D0C2281271900604FF0 /* Provider */,
-				206E7D0B2281271300604FF0 /* Service */,
-				206E7D0A2281270200604FF0 /* Business */,
-				206E7D09228126FB00604FF0 /* ViewModel */,
+				B8725F3822862B6300062232 /* Cells */,
 				206E7D04228121E400604FF0 /* TopSwiftListViewController.swift */,
 				206E7D05228121E400604FF0 /* TopSwiftListViewController.xib */,
+				B865D6952286457B00CA3120 /* TopSwiftListViewModel.swift */,
 			);
 			path = TopSwiftList;
-			sourceTree = "<group>";
-		};
-		206E7D09228126FB00604FF0 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		206E7D0A2281270200604FF0 /* Business */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Business;
-			sourceTree = "<group>";
-		};
-		206E7D0B2281271300604FF0 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		206E7D0C2281271900604FF0 /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Provider;
+			name = Business;
+			path = Presentation/TopSwiftList/Business;
 			sourceTree = "<group>";
 		};
 		206E7D0D228127CC00604FF0 /* Extensions */ = {
@@ -198,6 +203,59 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		3CE303427BE965A7482A59AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE8D4AB24E807A768820C276 /* Pods-GithubTopSwift.debug.xcconfig */,
+				4B86BD73A94119DA5E91FB90 /* Pods-GithubTopSwift.release.xcconfig */,
+				4AA7079FA1854BA871D67E6E /* Pods-GithubTopSwiftTests.debug.xcconfig */,
+				1B6FB508C0C8E8CCDD7F4057 /* Pods-GithubTopSwiftTests.release.xcconfig */,
+				904D4C879B01AD7DB3D69D63 /* Pods-GithubTopSwiftUITests.debug.xcconfig */,
+				F214FE45142AB4E2ECEDB6C0 /* Pods-GithubTopSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF6B1F9F5CD63880C49A89E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497FE817230FBDE45B8F1CFD /* Pods_GithubTopSwift.framework */,
+				39A50D08D2CE6047A1AA4C7F /* Pods_GithubTopSwiftTests.framework */,
+				6B3CE01D728026C101A2FE3C /* Pods_GithubTopSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8725F3822862B6300062232 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B8725F4122862BE300062232 /* RepoTableViewCell.swift */,
+				B8725F4222862BE300062232 /* RepoTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B8725F4522862FFD00062232 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B8725F462286301100062232 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B8725F482286302A00062232 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206E7CFA2281203F00604FF0 /* Build configuration list for PBXNativeTarget "GithubTopSwift" */;
 			buildPhases = (
+				B1958483DE284A3FCCC1EDA3 /* [CP] Check Pods Manifest.lock */,
 				206E7CCE2281203D00604FF0 /* Sources */,
 				206E7CCF2281203D00604FF0 /* Frameworks */,
 				206E7CD02281203D00604FF0 /* Resources */,
+				CA23A07EC6ED8F0199E3F556 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206E7CFD2281203F00604FF0 /* Build configuration list for PBXNativeTarget "GithubTopSwiftTests" */;
 			buildPhases = (
+				14C74A086EA005C8E23A245B /* [CP] Check Pods Manifest.lock */,
 				206E7CE22281203F00604FF0 /* Sources */,
 				206E7CE32281203F00604FF0 /* Frameworks */,
 				206E7CE42281203F00604FF0 /* Resources */,
@@ -240,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206E7D002281203F00604FF0 /* Build configuration list for PBXNativeTarget "GithubTopSwiftUITests" */;
 			buildPhases = (
+				26D946B86D0AEAE624A5F5CF /* [CP] Check Pods Manifest.lock */,
 				206E7CED2281203F00604FF0 /* Sources */,
 				206E7CEE2281203F00604FF0 /* Frameworks */,
 				206E7CEF2281203F00604FF0 /* Resources */,
@@ -305,6 +367,7 @@
 				206E7CE02281203F00604FF0 /* LaunchScreen.storyboard in Resources */,
 				206E7CDD2281203F00604FF0 /* Assets.xcassets in Resources */,
 				206E7D07228121E400604FF0 /* TopSwiftListViewController.xib in Resources */,
+				B8725F4422862BE300062232 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +387,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14C74A086EA005C8E23A245B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubTopSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D946B86D0AEAE624A5F5CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubTopSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1958483DE284A3FCCC1EDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubTopSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA23A07EC6ED8F0199E3F556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		206E7CCE2281203D00604FF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -331,9 +495,11 @@
 			files = (
 				206E7D06228121E400604FF0 /* TopSwiftListViewController.swift in Sources */,
 				206E7D112281288F00604FF0 /* NSObject.swift in Sources */,
+				B865D6962286457B00CA3120 /* TopSwiftListViewModel.swift in Sources */,
 				206E7D1422812CEE00604FF0 /* UINavigationBar.swift in Sources */,
 				206E7D0F228127F500604FF0 /* UITableView.swift in Sources */,
 				206E7CD62281203D00604FF0 /* AppDelegate.swift in Sources */,
+				B8725F4322862BE300062232 /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +664,7 @@
 		};
 		206E7CFB2281203F00604FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8D4AB24E807A768820C276 /* Pods-GithubTopSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +682,7 @@
 		};
 		206E7CFC2281203F00604FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B86BD73A94119DA5E91FB90 /* Pods-GithubTopSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +700,7 @@
 		};
 		206E7CFE2281203F00604FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA7079FA1854BA871D67E6E /* Pods-GithubTopSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +721,7 @@
 		};
 		206E7CFF2281203F00604FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6FB508C0C8E8CCDD7F4057 /* Pods-GithubTopSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +742,7 @@
 		};
 		206E7D012281203F00604FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904D4C879B01AD7DB3D69D63 /* Pods-GithubTopSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +762,7 @@
 		};
 		206E7D022281203F00604FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F214FE45142AB4E2ECEDB6C0 /* Pods-GithubTopSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

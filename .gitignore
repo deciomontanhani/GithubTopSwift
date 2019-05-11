@@ -16,6 +16,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+.DS_Store
 
 ## Other
 *.moved-aside
@@ -54,7 +55,7 @@ playground.xcworkspace
 # Carthage/Checkouts
 
 Carthage/Build
-
+Pods/
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the

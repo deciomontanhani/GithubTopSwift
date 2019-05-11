@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="142" id="KGk-i7-Jjw" customClass="RepoTableViewCell" customModule="GithubTopSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="141.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DaA-Qx-bcp">
+                        <rect key="frame" x="16" y="16.5" width="108" height="108"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="0gW-3k-UOv"/>
+                            <constraint firstAttribute="height" constant="108" id="Qyb-rv-8Ix"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Github Top+" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BE6-OS-NaQ">
+                        <rect key="frame" x="132" y="16.5" width="265" height="20.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="0.11798351788765764" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkM-Y8-X8Y">
+                        <rect key="frame" x="390" y="111.5" width="7" height="15"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="UF1-pb-EXz">
+                        <rect key="frame" x="370" y="111.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="Wqv-yv-d3C"/>
+                            <constraint firstAttribute="height" constant="15" id="q67-0H-7nG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Décio Montanhani" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8av-xw-iNF">
+                        <rect key="frame" x="132" y="44.5" width="265" height="15.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.37647058820000001" green="0.3411764706" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8av-xw-iNF" firstAttribute="top" secondItem="BE6-OS-NaQ" secondAttribute="bottom" constant="7.5" id="7Ka-bw-i9P"/>
+                    <constraint firstItem="8av-xw-iNF" firstAttribute="leading" secondItem="BE6-OS-NaQ" secondAttribute="leading" id="DCY-xn-FXV"/>
+                    <constraint firstAttribute="trailing" secondItem="8av-xw-iNF" secondAttribute="trailing" constant="16" id="HCE-0c-qdb"/>
+                    <constraint firstItem="BE6-OS-NaQ" firstAttribute="leading" secondItem="DaA-Qx-bcp" secondAttribute="trailing" constant="8" id="NZi-Ke-fNg"/>
+                    <constraint firstItem="BE6-OS-NaQ" firstAttribute="top" secondItem="DaA-Qx-bcp" secondAttribute="top" id="O9z-Kt-ZeJ"/>
+                    <constraint firstAttribute="bottom" secondItem="DaA-Qx-bcp" secondAttribute="bottom" constant="16" id="Q9s-y9-DSN"/>
+                    <constraint firstItem="pkM-Y8-X8Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="111" id="Tuv-q1-3XV"/>
+                    <constraint firstAttribute="bottom" secondItem="pkM-Y8-X8Y" secondAttribute="bottom" constant="16" id="irP-8g-sDu"/>
+                    <constraint firstItem="DaA-Qx-bcp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jST-O0-56W"/>
+                    <constraint firstItem="DaA-Qx-bcp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="loE-Xt-ah6"/>
+                    <constraint firstItem="pkM-Y8-X8Y" firstAttribute="leading" secondItem="UF1-pb-EXz" secondAttribute="trailing" constant="5" id="m4Q-5k-6eX"/>
+                    <constraint firstItem="pkM-Y8-X8Y" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8av-xw-iNF" secondAttribute="bottom" constant="10" id="pjU-Gk-APy"/>
+                    <constraint firstItem="pkM-Y8-X8Y" firstAttribute="top" secondItem="UF1-pb-EXz" secondAttribute="top" id="sjk-Re-rP3"/>
+                    <constraint firstAttribute="trailing" secondItem="BE6-OS-NaQ" secondAttribute="trailing" constant="16" id="thn-Gp-Oei"/>
+                    <constraint firstAttribute="trailing" secondItem="pkM-Y8-X8Y" secondAttribute="trailing" constant="16" id="uCv-Wx-zco"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="251.44927536231887" y="152.67857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="32" height="32"/>
+    </resources>
+</document>
