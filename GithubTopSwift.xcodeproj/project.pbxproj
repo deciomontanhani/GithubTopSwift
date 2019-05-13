@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2033C5E02288933F0068DD93 /* TopSwiftListBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5DF2288933F0068DD93 /* TopSwiftListBusiness.swift */; };
+		2033C5E6228893AC0068DD93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5E5228893AC0068DD93 /* Constants.swift */; };
+		2033C5E9228894BD0068DD93 /* TopSwiftListServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5E8228894BD0068DD93 /* TopSwiftListServices.swift */; };
+		2033C5EB228894CD0068DD93 /* TopSwiftListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5EA228894CC0068DD93 /* TopSwiftListApi.swift */; };
+		2033C5EF22889B110068DD93 /* RepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5EE22889B110068DD93 /* RepositoryResponse.swift */; };
+		2033C5F122889E870068DD93 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5F022889E870068DD93 /* Repository.swift */; };
+		2033C5F42288A0840068DD93 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2033C5F22288A0840068DD93 /* RepoTableViewCell.xib */; };
+		2033C5F52288A0840068DD93 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5F32288A0840068DD93 /* RepoTableViewCell.swift */; };
+		2033C5F72288A2440068DD93 /* RepositoryOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5F62288A2440068DD93 /* RepositoryOwner.swift */; };
+		2033C5F92288A4A50068DD93 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5F82288A4A50068DD93 /* ApiError.swift */; };
+		2033C5FB2288A6BA0068DD93 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5FA2288A6BA0068DD93 /* Response.swift */; };
+		2033C5FD2288F08F0068DD93 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033C5FC2288F08F0068DD93 /* Alert.swift */; };
 		206E7CD62281203D00604FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E7CD52281203D00604FF0 /* AppDelegate.swift */; };
 		206E7CDD2281203F00604FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206E7CDC2281203F00604FF0 /* Assets.xcassets */; };
 		206E7CE02281203F00604FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206E7CDE2281203F00604FF0 /* LaunchScreen.storyboard */; };
@@ -44,6 +56,18 @@
 
 /* Begin PBXFileReference section */
 		1B6FB508C0C8E8CCDD7F4057 /* Pods-GithubTopSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTopSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-GithubTopSwiftTests/Pods-GithubTopSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2033C5DF2288933F0068DD93 /* TopSwiftListBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSwiftListBusiness.swift; sourceTree = "<group>"; };
+		2033C5E5228893AC0068DD93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = GithubTopSwift/Presentation/TopSwiftList/Constants.swift; sourceTree = SOURCE_ROOT; };
+		2033C5E8228894BD0068DD93 /* TopSwiftListServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSwiftListServices.swift; sourceTree = "<group>"; };
+		2033C5EA228894CC0068DD93 /* TopSwiftListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSwiftListApi.swift; sourceTree = "<group>"; };
+		2033C5EE22889B110068DD93 /* RepositoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResponse.swift; sourceTree = "<group>"; };
+		2033C5F022889E870068DD93 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		2033C5F22288A0840068DD93 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RepoTableViewCell.xib; path = GithubTopSwift/Presentation/TopSwiftList/Cells/RepoTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		2033C5F32288A0840068DD93 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepoTableViewCell.swift; path = GithubTopSwift/Presentation/TopSwiftList/Cells/RepoTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		2033C5F62288A2440068DD93 /* RepositoryOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOwner.swift; sourceTree = "<group>"; };
+		2033C5F82288A4A50068DD93 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		2033C5FA2288A6BA0068DD93 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2033C5FC2288F08F0068DD93 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = GithubTopSwift/Extensions/Alert.swift; sourceTree = SOURCE_ROOT; };
 		206E7CD22281203D00604FF0 /* GithubTopSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubTopSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206E7CD52281203D00604FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206E7CDC2281203F00604FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +125,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2033C5E7228894900068DD93 /* TopSwiftlist */ = {
+			isa = PBXGroup;
+			children = (
+				2033C5E8228894BD0068DD93 /* TopSwiftListServices.swift */,
+				2033C5EA228894CC0068DD93 /* TopSwiftListApi.swift */,
+			);
+			path = TopSwiftlist;
+			sourceTree = "<group>";
+		};
+		2033C5EC228895C70068DD93 /* Payload */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Payload;
+			sourceTree = "<group>";
+		};
+		2033C5ED228895D30068DD93 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				2033C5EE22889B110068DD93 /* RepositoryResponse.swift */,
+				2033C5F022889E870068DD93 /* Repository.swift */,
+				2033C5F62288A2440068DD93 /* RepositoryOwner.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		206E7CC92281203D00604FF0 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +224,7 @@
 				206E7D04228121E400604FF0 /* TopSwiftListViewController.swift */,
 				206E7D05228121E400604FF0 /* TopSwiftListViewController.xib */,
 				B865D6952286457B00CA3120 /* TopSwiftListViewModel.swift */,
+				2033C5DF2288933F0068DD93 /* TopSwiftListBusiness.swift */,
 			);
 			path = TopSwiftList;
 			sourceTree = "<group>";
@@ -192,6 +243,7 @@
 				206E7D0E228127F500604FF0 /* UITableView.swift */,
 				206E7D102281288F00604FF0 /* NSObject.swift */,
 				206E7D1322812CEE00604FF0 /* UINavigationBar.swift */,
+				2033C5FA2288A6BA0068DD93 /* Response.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +251,8 @@
 		206E7D12228128CF00604FF0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				2033C5F32288A0840068DD93 /* RepoTableViewCell.swift */,
+				2033C5F22288A0840068DD93 /* RepoTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -238,6 +292,7 @@
 		B8725F4522862FFD00062232 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2033C5E7228894900068DD93 /* TopSwiftlist */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -245,6 +300,8 @@
 		B8725F462286301100062232 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2033C5E5228893AC0068DD93 /* Constants.swift */,
+				2033C5FC2288F08F0068DD93 /* Alert.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -252,6 +309,9 @@
 		B8725F482286302A00062232 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				2033C5ED228895D30068DD93 /* Response */,
+				2033C5EC228895C70068DD93 /* Payload */,
+				2033C5F82288A4A50068DD93 /* ApiError.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -368,6 +428,7 @@
 				206E7CDD2281203F00604FF0 /* Assets.xcassets in Resources */,
 				206E7D07228121E400604FF0 /* TopSwiftListViewController.xib in Resources */,
 				B8725F4422862BE300062232 /* RepoTableViewCell.xib in Resources */,
+				2033C5F42288A0840068DD93 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,26 +521,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GithubTopSwift/Pods-GithubTopSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -493,13 +539,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2033C5FD2288F08F0068DD93 /* Alert.swift in Sources */,
 				206E7D06228121E400604FF0 /* TopSwiftListViewController.swift in Sources */,
 				206E7D112281288F00604FF0 /* NSObject.swift in Sources */,
 				B865D6962286457B00CA3120 /* TopSwiftListViewModel.swift in Sources */,
+				2033C5FB2288A6BA0068DD93 /* Response.swift in Sources */,
+				2033C5F52288A0840068DD93 /* RepoTableViewCell.swift in Sources */,
+				2033C5F72288A2440068DD93 /* RepositoryOwner.swift in Sources */,
+				2033C5F122889E870068DD93 /* Repository.swift in Sources */,
 				206E7D1422812CEE00604FF0 /* UINavigationBar.swift in Sources */,
 				206E7D0F228127F500604FF0 /* UITableView.swift in Sources */,
+				2033C5E9228894BD0068DD93 /* TopSwiftListServices.swift in Sources */,
+				2033C5E02288933F0068DD93 /* TopSwiftListBusiness.swift in Sources */,
+				2033C5EB228894CD0068DD93 /* TopSwiftListApi.swift in Sources */,
 				206E7CD62281203D00604FF0 /* AppDelegate.swift in Sources */,
 				B8725F4322862BE300062232 /* RepoTableViewCell.swift in Sources */,
+				2033C5F92288A4A50068DD93 /* ApiError.swift in Sources */,
+				2033C5EF22889B110068DD93 /* RepositoryResponse.swift in Sources */,
+				2033C5E6228893AC0068DD93 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

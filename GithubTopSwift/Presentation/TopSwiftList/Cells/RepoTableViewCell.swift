@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import Kingfisher
 
 class RepoTableViewCell: UITableViewCell {
 
+    // MARK: - IBOutlets
+    @IBOutlet private weak var repoNameLabel: UILabel!
+    @IBOutlet private weak var usernameLabel: UILabel!
+    @IBOutlet private weak var starsLabel: UILabel!
+    @IBOutlet private weak var userAvatarImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func setup(model: Repository) {
+        repoNameLabel.text = model.repoName
+        usernameLabel.text = model.owner?.ownerName
+        let stars = model.stars ?? 0
+        starsLabel.text = "\(stars)"
+        
+        userAvatarImage.kf.indicatorType = IndicatorType.activity
+        if let avatarUrl = model.owner?.avatarUrl {
+            userAvatarImage.kf.setImage(with: URL(string: avatarUrl))
+        } else {
+            userAvatarImage.image = UIImage(named: "github")
+        }
     }
     
 }

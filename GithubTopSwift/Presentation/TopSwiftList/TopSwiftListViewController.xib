@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopSwiftListViewController" customModule="GithubTopSwift" customModuleProvider="target">
             <connections>
+                <outlet property="searchBar" destination="f5X-7H-0w8" id="DcS-z9-NYd"/>
+                <outlet property="tableView" destination="cbo-Ru-quz" id="1Ie-cY-3Z3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
