@@ -12,7 +12,9 @@ Abaixo, vou explicar como rodar esse projeto na sua máquina.
 
 Esse projeto iOS foi utilizado bibliotecas externas com **cocoapods**, então certifique-se que tenha instalado ou instale [nesse link.](https://guides.cocoapods.org/using/getting-started.html)
 
-![splashScreen](readme-images/splashScreen-topswift.jpeg) ![homescreen](readme-images/home.png)
+|                       Splash Screen                       |              Home Screen              |
+| :-------------------------------------------------------: | :-----------------------------------: |
+| ![splashScreen](readme-images/splashScreen-topswift.jpeg) | ![homescreen](readme-images/home.png) |
 
 ### Instalação
 
